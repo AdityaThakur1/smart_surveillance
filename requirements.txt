@@ -4,7 +4,6 @@ requests==2.20.0
 numpy
 base64
 json
-requests
 cv2
 ximilar.client
 os
