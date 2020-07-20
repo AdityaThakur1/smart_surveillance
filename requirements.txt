@@ -1,0 +1,13 @@
+Flask==1.1.2
+gunicorn==20.0.4
+requests==2.20.0
+numpy
+base64
+json
+requests
+cv2
+ximilar.client
+os
+smtplib
+email.mime.text
+datetime
