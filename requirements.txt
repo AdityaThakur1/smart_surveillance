@@ -4,7 +4,6 @@ requests==2.20.0
 numpy
 pybase64
 ximilar.client
-smtplib
 email
 datetime
 opencv-python
