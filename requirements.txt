@@ -3,7 +3,6 @@ gunicorn==20.0.4
 requests==2.20.0
 numpy
 pybase64
-json
 cv2
 ximilar.client
 os
