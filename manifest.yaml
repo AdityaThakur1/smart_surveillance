@@ -1,0 +1,8 @@
+---
+applications:
+- name: flaskwebapp
+  host: flaskwebapp
+  memory: 512M
+  disk_quota: 1028M
+  timeout: 60
+  buildpack: python_buildpack​
