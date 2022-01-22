@@ -12,10 +12,10 @@ app = Flask(__name__)
 
 smtp_ssl_host = 'smtp.gmail.com'  # smtp.mail.yahoo.com
 smtp_ssl_port = 465
-username = 'notif8015@gmail.com'
-password = 'intel@123'
-sender = 'notif8015@gmail.com'
-targets = ['adit8015@gmail.com','notification.nisivita@gmail.com']
+username = '#######'
+password = '#######'
+sender = '#######'
+targets = ['#######','#######']
 
 @app.route('/')  
 def upload():  
@@ -42,8 +42,8 @@ def success():
         second = 0
         success, image = cap.read()
         
-        client = RecognitionClient(token="c314203aea89974139e03d057a39f6e743b3e9fc")
-        task, status = client.get_task(task_id='12872b94-39eb-4853-a95d-73ab0d682407')
+        client = RecognitionClient(token="###########################")
+        task, status = client.get_task(task_id='#########################')
         
         incident = 'No accident detected'
 
